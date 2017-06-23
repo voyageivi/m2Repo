@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.afmobi</groupId>
+    <artifactId>commons</artifactId>
+    <version>0.1.0</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>${freemarker.version}</version>
+        </dependency>
+    </dependencies>
+
+
+    <properties>
+        <jdk.version>1.7</jdk.version>
+        <freemarker.version>2.3.25-incubating</freemarker.version>
+    </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>file-repo</id>
+            <url>file:///Users/vincent/Documents/github/m2Repo</url>
+
+        </repository>
+    </distributionManagement>
+
+</project>
