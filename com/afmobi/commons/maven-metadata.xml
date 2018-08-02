@@ -12,7 +12,11 @@
       <version>0.2.0</version>
     </versions>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <lastUpdated>20180730030417</lastUpdated>
+=======
+    <lastUpdated>20180717094010</lastUpdated>
+>>>>>>> parent of 347fa40... 添加mvc, mybatis
 =======
     <lastUpdated>20180717094010</lastUpdated>
 >>>>>>> parent of 347fa40... 添加mvc, mybatis
