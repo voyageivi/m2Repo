@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.afmobi</groupId>
+    <artifactId>commons-mybatis</artifactId>
+    <version>1.0.2</version>
+    <dependencies>
+        <!--<dependency>-->
+            <!--<groupId>org.mybatis</groupId>-->
+            <!--<artifactId>mybatis</artifactId>-->
+            <!--<version>${mybatis.version}</version>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.afmobi</groupId>
+            <artifactId>commons</artifactId>
+            <version>0.2.1</version>
+        </dependency>
+
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+    <properties>
+        <mybatis.version>3.4.2</mybatis.version>
+        <jdk.version>1.7</jdk.version>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>my-maven-snapshot-repository</id>
+            <name>my-maven-snapshot-repository</name>
+            <url>https://raw.github.com/voyageivi/m2Repo/snapshot</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>file-repo</id>
+            <url>file:///Users/vincent/Documents/github/m2Repo</url>
+        </repository>
+    </distributionManagement>
+
+</project>
